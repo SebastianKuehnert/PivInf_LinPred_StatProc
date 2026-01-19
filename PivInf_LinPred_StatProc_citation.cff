@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software for academic research, please cite the following article."
+
+authors:
+  - family-names: Kühnert
+    given-names: Sebastian
+  - family-names: Dette
+    given-names: Holger
+
+title: "R code for pivotal inference for linear predictions in stationary processes"
+version: 1.0.0
+date-released: 2025-08-01
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Dette
+      given-names: Holger
+    - family-names: Kühnert
+      given-names: Sebastian
+  title: "Pivotal inference for linear predictions in stationary processes"
+  year: 2025
+  archive: arXiv
+  eprint: 2508.21025
+  url: https://arxiv.org/abs/2508.21025
