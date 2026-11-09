@@ -81,7 +81,7 @@ build_Gpj <- function(p, j, lst) {
    
    G_pj[1, 1] <- tr_Gamma0
    
-   row_blocks <- lapply(1:(p + 1), function(k) t(e) %*% lst[[k + 1]])
+   row_blocks <- lapply(1:(p + 1), function(k) t(e) %*% t(lst[[k + 1]]))
    G_pj[1, 2:ncol(G_pj)] <- as.vector(do.call(cbind, row_blocks))
    
    col_blocks <- lapply(1:(p + 1), function(k) lst[[k + 1]] %*% e)
